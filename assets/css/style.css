@@ -17,13 +17,10 @@ h2 {
 }
 
 #logo {
-    font-size: 300%;
     float: left;
-    color: #594f4f;
 }
 
-#menu,
-#logo {
+#menu {
     line-height: 100px;
 }
 
