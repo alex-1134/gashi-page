@@ -9,6 +9,7 @@
 body {
     color: black;
     font-family: 'Open Sans', sans-serif;
+    padding: 30px;
 }
 
 h2 {
@@ -45,14 +46,47 @@ h2 {
 
 #menu li {
     float: right;
-    margin-right: 60px;
+    margin-right: 20px;
+
 }
 
 #menu a {
     text-decoration: none;
     color: black;
+
 }
 
 #menu a:hover {
     border-bottom: 1px solid black;
+}
+
+footer {
+    height: 200px;
+    position: fixed;
+    margin-bottom: 20%;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+
+
+
+
+.foot li {
+    color: #4c4c4c;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    padding: 40px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+.foot i {
+    font-size: 150%;
+
 }
