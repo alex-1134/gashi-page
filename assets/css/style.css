@@ -16,12 +16,26 @@ h2 {
     letter-spacing: 5px;
 }
 
+
 #logo {
+    color: #4c4c4c;
+    font-size: 300%;
     float: left;
+    text-decoration: none;
 }
 
-#menu {
+#menu,
+#logo {
     line-height: 100px;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#logo a:hover {
+    text-decoration: none;
+
 }
 
 #menu {
