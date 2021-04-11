@@ -10,6 +10,7 @@ body {
     color: black;
     font-family: 'Open Sans', sans-serif;
     padding: 30px;
+
 }
 
 h2 {
@@ -60,6 +61,7 @@ h2 {
     border-bottom: 1px solid black;
 }
 
+
 footer {
     height: 200px;
     position: fixed;
@@ -70,14 +72,10 @@ footer {
 }
 
 
-
-
-
 .foot li {
     color: #4c4c4c;
     display: inline-block;
     text-decoration: none;
-    position: relative;
     padding: 40px;
 }
 
@@ -88,5 +86,17 @@ footer {
 
 .foot i {
     font-size: 150%;
+}
 
+
+#photo img {
+    width: 150px;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+#main-image {
+    height: 850px;
+    width: 80%;
+    background: url(../images/gashi-main.jpg) no-repeat center center;
 }
